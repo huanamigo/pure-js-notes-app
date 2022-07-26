@@ -1,1 +1,1 @@
-# pure-js-notes-app
+# Pure JS notes app
