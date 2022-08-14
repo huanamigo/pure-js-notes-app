@@ -59,17 +59,17 @@ const hidePanel = () => {
 
 const checkCategory = (note) => {
   switch (category.options[category.selectedIndex].innerText) {
-    case 'Zakupy':
+    case 'Shopping':
       note.classList.add('shop');
       cardIDshop++;
       cardID = cardIDshop;
       break;
-    case 'Praca':
+    case 'Work':
       note.classList.add('work');
       cardIDwork++;
       cardID = cardIDwork;
       break;
-    case 'Inne':
+    case 'Others':
       note.classList.add('others');
       cardIDothers++;
       cardID = cardIDothers;
